@@ -269,6 +269,7 @@ class Position(DataStore):
     _KEYS = ["s", "ps"]
 
     def _onmessage(self, item: Item) -> None:
+        print(item)
         self._update(item["a"]["P"])
 
     def _onresponse(self, data: list[Item]) -> None:
