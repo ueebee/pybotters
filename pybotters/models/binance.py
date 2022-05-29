@@ -282,6 +282,7 @@ class Position(DataStore):
                         "mt": item["marginType"],
                         "iw": item["isolatedWallet"],
                         "ps": item["positionSide"],
+                        "up": item["unRealizedProfit"],
                     }
                 ]
             )
